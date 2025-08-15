@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | ASRON TECH</title>
+    <meta name="description" content="Contact ASRON TECH sales, procurement, and media relations.">
+    <link rel="stylesheet" href="/asron-tech/assets/css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <a class="brand" href="/asron-tech/">
+          <span class="brand-emblem" aria-hidden="true"></span>
+          <span>ASRON TECH</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/asron-tech/">Home</a>
+          <a href="/asron-tech/products/">Products</a>
+          <a href="/asron-tech/technologies/">Technologies</a>
+          <a href="/asron-tech/about/">About</a>
+          <a href="/asron-tech/news/">News</a>
+          <a href="/asron-tech/careers/">Careers</a>
+          <a href="/asron-tech/contact/" aria-current="page" class="cta">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Open menu" data-menu-toggle>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-mobile-menu data-open="false">
+        <nav class="container" aria-label="Mobile">
+          <a href="/asron-tech/">Home</a>
+          <a href="/asron-tech/products/">Products</a>
+          <a href="/asron-tech/technologies/">Technologies</a>
+          <a href="/asron-tech/about/">About</a>
+          <a href="/asron-tech/news/">News</a>
+          <a href="/asron-tech/careers/">Careers</a>
+          <a href="/asron-tech/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">Contact</h1>
+          <p class="section-subtitle">We respond within 2 business days</p>
+
+          <div class="grid-2">
+            <div class="reveal">
+              <h2 class="section-title">Send a Message</h2>
+              <form class="reveal" onsubmit="window.location='mailto:sales@asrontech.com?subject='+encodeURIComponent(this.subject.value)+'&body='+encodeURIComponent(this.message.value+'%0D%0A%0D%0AFrom: '+this.name.value+' ('+this.email.value+')'); return false;">
+                <div class="cards" style="grid-template-columns: repeat(12, 1fr); gap:12px;">
+                  <div class="card" style="grid-column: span 12;">
+                    <div class="card-body">
+                      <label class="muted" for="name">Name</label>
+                      <input id="name" name="name" required style="width:100%; margin-top:6px; padding:12px; border-radius:10px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); color:var(--text);" />
+                    </div>
+                  </div>
+                  <div class="card" style="grid-column: span 12;">
+                    <div class="card-body">
+                      <label class="muted" for="email">Email</label>
+                      <input id="email" name="email" type="email" required style="width:100%; margin-top:6px; padding:12px; border-radius:10px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); color:var(--text);" />
+                    </div>
+                  </div>
+                  <div class="card" style="grid-column: span 12;">
+                    <div class="card-body">
+                      <label class="muted" for="subject">Subject</label>
+                      <input id="subject" name="subject" required style="width:100%; margin-top:6px; padding:12px; border-radius:10px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); color:var(--text);" />
+                    </div>
+                  </div>
+                  <div class="card" style="grid-column: span 12;">
+                    <div class="card-body">
+                      <label class="muted" for="message">Message</label>
+                      <textarea id="message" name="message" rows="6" required style="width:100%; margin-top:6px; padding:12px; border-radius:10px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); color:var(--text);"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="actions" style="margin-top:12px">
+                  <button class="button primary" type="submit">Send</button>
+                  <a class="button" href="mailto:sales@asrontech.com">sales@asrontech.com</a>
+                </div>
+              </form>
+            </div>
+            <div class="reveal">
+              <h2 class="section-title">Contact Details</h2>
+              <div class="cards">
+                <div class="card"><div class="card-body"><div class="card-title">Sales</div><div class="card-meta">sales@asrontech.com</div></div></div>
+                <div class="card"><div class="card-body"><div class="card-title">Procurement</div><div class="card-meta">procurement@asrontech.com</div></div></div>
+                <div class="card"><div class="card-body"><div class="card-title">Media</div><div class="card-meta">media@asrontech.com</div></div></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="card">
+                <div class="thumb" style="height:200px"></div>
+                <div class="card-body">
+                  <div class="card-title">Head Office</div>
+                  <div class="card-meta">Ankara, Türkiye</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="brand"><span class="brand-emblem" aria-hidden="true"></span><span>ASRON TECH</span></div>
+          <div class="muted">© <span id="y"></span> ASRON TECH. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+    <script src="/asron-tech/assets/js/main.js"></script>
+  </body>
+</html>
